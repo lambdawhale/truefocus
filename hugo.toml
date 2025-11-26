@@ -1,0 +1,4 @@
+baseURL = 'https://truefocus.cloud/'
+languageCode = 'en-us'
+title = 'TrueFocus'
+theme = 'ananke'
