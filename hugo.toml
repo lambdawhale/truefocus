@@ -192,14 +192,16 @@ paginatePath = "page"
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Servcies"
+    name = "Services"
     weight = 1
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Performance", url = "/features/performance/" },
-        { name = "Design System", url = "/features/design-system/" },
-        { name = "Developer Experience", url = "/features/developer-experience/" }
+        { name = "Generative AI Consulting", url = "/services/generative-ai-consulting/" },
+        { name = "Retrieval-Augmented Generation (RAG)", url = "/services/retrieval-augmented-generation-rag/" },
+        { name = "AI Integration Services (AIaaS)", url = "/services/ai-integration-services-aiaas/" },
+        { name = "Large Language Model (LLM) Development", url = "/services/large-language-model-llm-development/" },
+        { name = "AI Agent Development", url = "/services/ai-agent-development/" }
       ]
   [[menu.main]]
     name = "Pricing"
