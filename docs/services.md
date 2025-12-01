@@ -13,5 +13,4 @@ Offer scalable AI-as-a-Service solutions, enabling businesses to embed intellige
 Design, fine-tune, and deploy custom LLMs tailored to specific industries. These models enhance accuracy, data sovereignty, and compliance for sectors with strict regulations.
 
 5. AI Agent Development: 
-
 Create autonomous AI agents that act as digital co-workers, capable of handling tasks like customer support, research, and workflow automation. IDC forecasts that by 2030, nearly half of organizations will orchestrate AI agents at scale.
