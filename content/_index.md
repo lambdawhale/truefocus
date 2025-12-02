@@ -27,68 +27,79 @@ testimonials:
 ---
 
 {{< hero 
-    headline="Build Your SaaS Website"
-    sub_headline="Create stunning, responsive websites that load instantly. Built with Hugo and TailwindCSS for maximum performance and flexibility."
-    primary_button_text="Get Started Free"
-    primary_button_url="#"
-    secondary_button_text="View Demo"
-    secondary_button_url="#"
-    hero_image="/images/hero-dashboard.svg"
+    headline="Transform Ideas Into Intelligent Solutions"
+    sub_headline="Boost productivity, cut costs, and accelerate time-to-market with custom AI and cloud innovations designed to scale your business."
+    hero_image="/images/innovation.png"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
     gradient-angle="180"
 >}}
 
-{{< client-logos animate="true" >}}
-
 {{< features-section 
-    title="Modern Features for Modern Websites"
-    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
+    title="Our AI & Cloud Services"
+    description="We specialize in building custom AI and cloud solutions that help businesses innovate faster, operate smarter, and scale seamlessly. Below are our flagship offerings designed to deliver measurable impact for your organization."
 >}}
 
 {{< feature
-    title="Lightning-Fast Performance"
-    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
-    badge="Performance"
+    title="Launch Generative AI that ships real outcomes"
+    description="Design, govern, and scale content engines that cut cycle times while staying safe and on-brand."
+    badge="Generative AI"
     badgeColor="#2563eb"
-    image="/images/feature-1.svg"
+    image="/images/GenAI-Solutions.png"
     buttonText="Learn More"
-    buttonLink="/features/performance/"
-    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
+    buttonLink="/services/generative-ai-consulting/"
+    features="Automated content creation,Accelerated innovation cycles,Cost-efficient workflows"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Beautiful Design System"
-    description="Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
-    badge="Design"
+    title="RAG that answers from your sources, not the internet"
+    description="Blend LLMs with governed data pipelines to deliver trustworthy, context-aware responses every time."
+    badge="RAG"
     badgeColor="#7c3aed"
-    image="/images/feature-2.svg"
+    image="/images/RAG-Systems.png"
     buttonText="Learn More"
-    buttonLink="/features/design-system/"
-    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
+    buttonLink="/services/retrieval-augmented-generation-rag/"
+    features="Trusted insights,Error reduction,Faster decision-making"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Developer Experience"
-    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-    badge="Development"
+    title="Plug AI into your platform without the infrastructure drag"
+    description="We deliver AI-as-a-Service that slots into your stack, scales on demand, and keeps operations lean."
+    badge="AIaaS"
     badgeColor="#16a34a"
-    image="/images/feature-3.svg"
+    image="/images/AI-Automation.png"
     buttonText="Learn More"
-    buttonLink="/features/developer-experience/"
-    features="Component system,Easy customization,Clean code,Detailed documentation"
+    buttonLink="/services/ai-integration-services-aiaas/"
+    features="Smart resource optimization,Predictive reliability,Rapid deployment"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Build LLMs tuned to your domain"
+    description="From data curation to deployment, we craft compliant, high-accuracy language models aligned to your workflows."
+    badge="LLM"
+    badgeColor="#16a34a"
+    image="/images/llm-models.png"
+    buttonText="Learn More"
+    buttonLink="/services/large-language-model-llm-development/"
+    features="Domain-specific accuracy,Compliance-ready AI,Streamlined operations"
+    imagePosition="left"
+>}}
+
+{{< feature
+    title="Deploy AI agents that act like dependable teammates"
+    description="Automate support, research, and operations with guardrailed agents that stay on-brand and on-task."
+    badge="LLM"
+    badgeColor="#16a34a"
+    image="/images/AI-Agents-Dev.png"
+    buttonText="Learn More"
+    buttonLink="/services/ai-agent-development/"
+    features="24/7 digital co-workers,Productivity boost:,Scalable efficiency"
     imagePosition="right"
 >}}
 
 {{< /features-section >}}
-
-{{< testimonials 
-    title="Trusted by Modern Web Teams"
-    description="See how teams are building better websites with our theme."
-    animate="true"
-    background-color="#f1f5f9"
->}}
 
 {{< cta >}}

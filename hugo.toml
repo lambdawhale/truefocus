@@ -23,15 +23,15 @@ paginatePath = "page"
 [params]
   description = ""
   author = "Chaoming Li"
-  logo = "/images/logo.svg"
+  logo = "/images/logo.png"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
   
   # Global CTA Configuration
   [params.cta]
-    enable = true
-    title = "Ready to Build Your SaaS Website?"
-    description = "Join companies already using our theme to create beautiful, high-performance websites."
+    enable = false
+    title = "Ready to Build Your AI DevOps?"
+    description = "We specialize in building **custom AI and cloud solutions** that help businesses innovate faster, operate smarter, and scale seamlessly. Below are our flagship offerings designed to deliver measurable impact for your organization."
     gradient_from = "#2563eb"  # Indigo-600
     gradient_to = "#7c3aed"    # Purple-600
     gradient_angle = 30
@@ -71,7 +71,7 @@ paginatePath = "page"
     
     # Logo configuration
     [params.header.logo]
-      src = "/images/logo.svg"
+      src = "/images/logo.png"
     
     # Menu configuration
     [params.header.menu]
@@ -89,18 +89,6 @@ paginatePath = "page"
         text_color = "text-gray-700"
         hover_background = "hover:bg-gray-50"
         text_size = "text-sm"
-    
-    # Button configuration
-    [params.header.buttons]
-      # Sign In button
-      [params.header.buttons.signIn]
-        text = "Sign in"
-        url = "/signin"
-      
-      # Get Started button
-      [params.header.buttons.getStarted]
-        text = "Get Started"
-        url = "/get-started"
 
   # Blog configuration
   [params.blog]

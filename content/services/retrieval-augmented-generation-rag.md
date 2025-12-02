@@ -11,17 +11,9 @@ description: "Build systems that combine large language models with enterprise d
     primary_button_url="#"
     secondary_button_text="See data playbooks"
     secondary_button_url="#"
-    hero_image="/images/blog/blog-4.jpg"
-    gradient-from="#0f172a"
-    gradient-to="#06b6d4"
-    gradient-angle="125"
+    hero_image="/images/RAG-Systems.png"
 >}}
-
 Our RAG systems combine advanced language models with your proprietary data to deliver accurate, context-aware insights. Unlike generic AI tools that risk hallucinations, our solutions ensure that your teams receive reliable, enterprise-grade answers grounded in your own knowledge base. This is especially critical for industries where precision and compliance are non-negotiable.
 
 By implementing RAG, your organization reduces the time spent searching for information and minimizes costly errors. Employees gain instant access to trustworthy insights, accelerating decision-making and improving customer service. This translates into lower support costs, faster resolution times, and a competitive edge in industries where accuracy builds trust.
 
-## 🚀 Ready to Transform Your Business?
-
-Partner with us to unlock the full potential of AI and cloud innovation.  
-[Contact us today](#) to explore how these solutions can accelerate your growth.

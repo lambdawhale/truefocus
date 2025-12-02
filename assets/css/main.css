@@ -149,6 +149,10 @@
     @apply text-primary-600 hover:text-primary-700 no-underline;
   }
 
+  .prose a.btn-primary {
+    @apply text-white bg-primary-600 hover:bg-primary-700;
+  }
+
   .prose ul, .prose ol {
     @apply my-6 ml-6;
   }

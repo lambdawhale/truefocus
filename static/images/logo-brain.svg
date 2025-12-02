@@ -1,0 +1,55 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#020617"/>
+
+  <!-- Head silhouette -->
+  <path
+    d="M72 32
+       C58 32 48 42 48 56
+       C48 61 49 65 51 68
+       L48 78
+       C47 80 48 82 50 83
+       L54 84
+       L54 92
+       C54 94 56 96 58 96
+       L72 96
+       C84 96 92 87 92 74
+       L92 60
+       C92 44 84 32 72 32Z"
+    fill="#020617"
+    stroke="#E5E7EB"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Brain (inner shape) -->
+  <path
+    d="M70 44
+       C64 44 60 48 60 53
+       C57 54 55 57 55 60
+       C55 65 59 69 64 69
+       C65 72 68 74 71 74
+       C76 74 80 70 80 65
+       C83 63 85 60 85 57
+       C85 51 80 47 74 47
+       C73 45 72 44 70 44Z"
+    fill="#F9FAFB"/>
+
+  <!-- Brain highlight (spark of excellent thoughts) -->
+  <circle cx="72" cy="54" r="3" fill="#FACC15"/>
+
+  <!-- Subtle halo around the head (focus on what is pure / admirable) -->
+  <path
+    d="M40 54
+       C44 40 57 30 72 30
+       C87 30 100 40 104 54"
+    fill="none"
+    stroke="#4F46E5"
+    stroke-width="3"
+    stroke-linecap="round"
+    opacity="0.7"/>
+
+  <!-- Outgoing “excellent output” lines -->
+  <line x1="96" y1="64" x2="110" y2="60" stroke="#22C55E" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <line x1="96" y1="72" x2="110" y2="76" stroke="#22C55E" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+</svg>
