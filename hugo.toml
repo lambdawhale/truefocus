@@ -206,7 +206,6 @@ paginatePath = "page"
       has_submenu = true
       submenu = [
         { name = "About Us", url = "/company/" },
-        { name = "Careers", url = "/careers/" }
       ]
 
   # Footer Column 1 Menu
