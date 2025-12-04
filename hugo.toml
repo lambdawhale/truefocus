@@ -43,26 +43,25 @@ paginatePath = "page"
       url = "/demo"
   
   # Social Media Links
-  [params.social]
-    linkedin = "https://linkedin.com/in/chaomingli"
-    twitter = "https://twitter.com/lichaoming"
-    bluesky = "https://bsky.app/profile/bsky.app"
-    youtube = "https://youtube.com/@chaomingli"
-    facebook = "https://facebook.com/lichaoming"
-    instagram = "https://instagram.com/lichaoming"
-    github = "https://github.com/chaoming"
-    telegram = "https://t.me/yourchannel"
-    discord = "https://discord.gg/yourinvite"
-    slack = "https://yourteam.slack.com"
-    medium = "https://medium.com/@yourhandle"
-    dribbble = "https://dribbble.com/yourprofile"
-    behance = "https://behance.net/yourprofile"
+#  [params.social]
+#    linkedin = "https://linkedin.com/in/chaomingli"
+#    twitter = "https://twitter.com/lichaoming"
+#    bluesky = "https://bsky.app/profile/bsky.app"
+#    youtube = "https://youtube.com/@chaomingli"
+#    facebook = "https://facebook.com/lichaoming"
+#    instagram = "https://instagram.com/lichaoming"
+#    github = "https://github.com/chaoming"
+#    telegram = "https://t.me/yourchannel"
+#    discord = "https://discord.gg/yourinvite"
+#    slack = "https://yourteam.slack.com"
+#    medium = "https://medium.com/@yourhandle"
+#    dribbble = "https://dribbble.com/yourprofile"
+#    behance = "https://behance.net/yourprofile"
   
   # Footer Configuration
   [params.footer]
-    column_1_title = "Features"
-    column_2_title = "COMPANY"
-    column_3_title = "LEGAL"
+    column_1_title = "COMPANY"
+    column_2_title = "LEGAL"
   
   [params.header]
     # Header background and border styles (optional)
@@ -89,6 +88,13 @@ paginatePath = "page"
         text_color = "text-gray-700"
         hover_background = "hover:bg-gray-50"
         text_size = "text-sm"
+
+    [params.header.buttons]
+      [params.header.buttons.getStarted]
+        text = "Schedule a Call"
+        url = "https://calendly.com/dgeorgievski"
+        target = "_blank"
+        rel = "noopener"
 
   # Blog configuration
   [params.blog]
@@ -209,39 +215,39 @@ paginatePath = "page"
       ]
 
   # Footer Column 1 Menu
-  [[menu.footer_column_1]]
-    name = "Performance"
-    url = "/features/performance/"
-    weight = 1
-  [[menu.footer_column_1]]
-    name = "Design System"
-    url = "/features/design-system/"
-    weight = 2
-  [[menu.footer_column_1]]
-    name = "Developer Experience"
-    url = "/features/developer-experience/"
-    weight = 3
+#  [[menu.footer_column_1]]
+#    name = "Performance"
+#    url = "/features/performance/"
+#    weight = 1
+#  [[menu.footer_column_1]]
+#    name = "Design System"
+#    url = "/features/design-system/"
+#    weight = 2
+#  [[menu.footer_column_1]]
+#    name = "Developer Experience"
+#    url = "/features/developer-experience/"
+#    weight = 3
 
-  # Footer Column 2 Menu
-  [[menu.footer_column_2]]
+  # Footer Column 1 Menu
+  [[menu.footer_column_1]]
     name = "Blog"
     url = "/blog"
     weight = 1
-  [[menu.footer_column_2]]
+  [[menu.footer_column_1]]
     name = "About Us"
     url = "/company"
     weight = 2
-  [[menu.footer_column_2]]
-    name = "Careers"
-    url = "/careers"
-    weight = 3
+  #[[menu.footer_column_1]]
+  #  name = "Careers"
+  #  url = "/careers"
+  #  weight = 3
 
-  # Footer Column 3 Menu
-  [[menu.footer_column_3]]
+  # Footer Column 2 Menu
+  [[menu.footer_column_2]]
     name = "License"
     url = "/license"
     weight = 1
-  [[menu.footer_column_3]]
+  [[menu.footer_column_2]]
     name = "Privacy Policy"
     url = "/privacy"
     weight = 2
