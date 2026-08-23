@@ -37,11 +37,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install Node.js dependencies
-        run: |
-          cp themes/hugo-saasify-theme/package.json .
-          cp themes/hugo-saasify-theme/postcss.config.js .
-          cp themes/hugo-saasify-theme/tailwind.config.copy.js ./tailwind.config.js
-          npm install
+        run: npm ci
 
       - name: Build with Hugo
         env:
