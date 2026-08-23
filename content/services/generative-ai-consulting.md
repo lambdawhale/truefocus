@@ -1,5 +1,6 @@
 ---
 title: "Generative AI Solutions"
+draft: true
 show_title: false
 layout: "simple"
 description: "Guide enterprises in adopting generative AI for content creation, automation, and productivity."

@@ -21,8 +21,8 @@ paginate = 6
 paginatePath = "page"
 
 [params]
-  description = ""
-  author = "Chaoming Li"
+  description = "AI + DevSecOps consulting for secure agent delivery, hybrid software supply chains, policy-as-code, and governed automation."
+  author = "TrueFocus"
   logo = "/images/logo.png"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
@@ -30,17 +30,17 @@ paginatePath = "page"
   # Global CTA Configuration
   [params.cta]
     enable = false
-    title = "Ready to Build Your AI DevOps?"
-    description = "We specialize in building **custom AI and cloud solutions** that help businesses innovate faster, operate smarter, and scale seamlessly. Below are our flagship offerings designed to deliver measurable impact for your organization."
+    title = "Ready to make AI delivery governable?"
+    description = "Start with one agent, pipeline, or software supply chain risk and define a practical path to control."
     gradient_from = "#2563eb"  # Indigo-600
     gradient_to = "#7c3aed"    # Purple-600
     gradient_angle = 30
     [params.cta.primary_button]
-      text = "Get Started Free"
-      url = "/get-started"
+      text = "Schedule a Call"
+      url = "https://calendly.com/dgeorgievski"
     [params.cta.secondary_button]
-      text = "Book Demo"
-      url = "/demo"
+      text = "Explore Services"
+      url = "/#services"
   
   # Social Media Links
 #  [params.social]
@@ -98,9 +98,9 @@ paginatePath = "page"
 
   # Blog configuration
   [params.blog]
-    enable = true
+    enable = false
     title = "Latest Articles"
-    subtitle = "Learn more about web development and best practices"
+    subtitle = "Practical guidance on AI governance, software supply chain security, and modern DevSecOps"
     
     # Blog CTA configuration
     [params.blog.cta]
@@ -191,23 +191,18 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Generative AI Consulting", url = "/services/generative-ai-consulting/" },
-        { name = "Retrieval-Augmented Generation (RAG)", url = "/services/retrieval-augmented-generation-rag/" },
-        { name = "AI Integration Services (AIaaS)", url = "/services/ai-integration-services-aiaas/" },
-        { name = "Large Language Model (LLM) Development", url = "/services/large-language-model-llm-development/" },
-        { name = "AI Agent Development", url = "/services/ai-agent-development/" }
+        { name = "AI + DevSecOps Readiness", url = "/services/ai-devsecops-readiness/" },
+        { name = "Hybrid Supply Chain Security", url = "/services/hybrid-software-supply-chain-security/" },
+        { name = "Agentic AI Governance", url = "/services/agentic-ai-governance/" },
+        { name = "Autonomous Remediation", url = "/services/autonomous-remediation/" }
       ]
   [[menu.main]]
-    name = "Pricing"
-    url = "/pricing"
+    name = "Engagements"
+    url = "/pricing/"
     weight = 2
   [[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 3
-  [[menu.main]]
     name = "Company"
-    weight = 4
+    weight = 3
     [menu.main.params]
       has_submenu = true
       submenu = [
@@ -230,12 +225,12 @@ paginatePath = "page"
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Blog"
-    url = "/blog"
-    weight = 1
-  [[menu.footer_column_1]]
     name = "About Us"
     url = "/company"
+    weight = 1
+  [[menu.footer_column_1]]
+    name = "Engagements"
+    url = "/pricing/"
     weight = 2
   #[[menu.footer_column_1]]
   #  name = "Careers"

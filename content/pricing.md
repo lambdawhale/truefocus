@@ -1,152 +1,61 @@
 ---
-title: "Pricing"
-description: "Choose the perfect plan for your needs"
-layout: "pricing"
+title: "Engagements"
+description: "A phased path from AI and DevSecOps risk assessment to implementation and continuous optimization."
+layout: "simple"
 ---
 
-{{< pricing-table-1 >}}
-{
-    "title": "Designed for business teams like yours",
-    "description": "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
-    "plans": [
-        {
-            "name": "Starter",
-            "price": "29",
-            "description": "Best option for personal use & for your next project.",
-            "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 1 developer",
-                "Premium support: 6 months",
-                "Free updates: 6 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Company",
-            "price": "99",
-            "description": "Relevant for multiple users, extended & premium support.",
-            "featured": true,
-            "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 10 developers",
-                "Premium support: 24 months",
-                "Free updates: 24 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Enterprise",
-            "price": "499",
-            "description": "Best for large scale uses and extended redistribution rights.",
-            "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 100+ developers",
-                "Premium support: 36 months",
-                "Free updates: 36 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        }
-    ]
-}
-{{< /pricing-table-1 >}}
+{{< hero
+    headline="A practical path from risk to operating control"
+    sub_headline="Every engagement is scoped around your environment, risk profile, and desired outcome—not a generic seat-based plan."
+    primary_button_text="Discuss your priorities"
+    primary_button_url="https://calendly.com/dgeorgievski"
+    hero_image="/images/innovation.png"
+>}}
 
-<div class="mt-16"></div>
+## Three ways to engage
 
-{{< pricing-table-2 >}}
-{
-    "title": "Alternative Pricing Options",
-    "description": "Choose a plan that best suits your business needs with our flexible pricing options.",
-    "plans": [
-        {
-            "name": "Basic",
-            "price": "19",
-            "description": "Perfect for freelancers and solo developers.",
-            "features": [
-                "Core features included",
-                "Community support",
-                "Team size: 1 developer",
-                "Basic analytics",
-                "Monthly updates"
-            ],
-            "button": {
-                "text": "Choose Basic",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Professional",
-            "price": "79",
-            "description": "Ideal for growing development teams.",
-            "featured": true,
-            "features": [
-                "All Basic features",
-                "Priority support",
-                "Team size: up to 5 developers",
-                "Advanced analytics",
-                "CI/CD integration"
-            ],
-            "button": {
-                "text": "Choose Pro",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Business",
-            "price": "299",
-            "description": "For large organizations and enterprises.",
-            "features": [
-                "All Pro features",
-                "24/7 dedicated support",
-                "Unlimited team size",
-                "Custom integrations",
-                "SLA guarantee"
-            ],
-            "button": {
-                "text": "Choose Business",
-                "url": "#"
-            }
-        }
-    ]
-}
-{{< /pricing-table-2 >}}
+### 1. Readiness assessment
 
-{{< faq >}}
-{
-    "title": "Common Questions",
-    "description": "Find answers to frequently asked questions about our pricing plans and features.",
-    "questions": [
-        {
-            "question": "What type of payment do you accept?",
-            "answer": "We accept all major credit cards, PayPal, and bank transfers. All payments are processed securely through our payment providers."
-        },
-        {
-            "question": "Do you offer custom pricing for larger teams?",
-            "answer": "Yes! If you have specific needs or a larger team, please contact our sales team for custom pricing tailored to your requirements."
-        },
-        {
-            "question": "What's included in the free updates?",
-            "answer": "Free updates include all new features, improvements, and bug fixes released during your subscription period. You'll always have access to the latest version."
-        },
-        {
-            "question": "What kind of support is included?",
-            "answer": "All plans include technical support, with varying response times based on your plan level. Enterprise customers get priority support with dedicated account managers."
-        },
-        {
-            "question": "Can I upgrade or downgrade my plan?",
-            "answer": "Yes, you can change your plan at any time. When upgrading, you'll be prorated for the remainder of your billing period. When downgrading, changes take effect at the next billing cycle."
-        }
-    ]
-}
-{{< /faq >}}
+A fixed-scope engagement for leaders who need a defensible view of their current exposure and a prioritized plan.
+
+- Architecture and delivery-workflow discovery
+- AI asset, tool, identity, and data-path inventory
+- Hybrid software supply chain and policy review
+- Risk-ranked findings and target-state blueprint
+- Executive readout and implementation roadmap
+
+**Best for:** CISO, CTO, platform, and AI leaders deciding where to invest first.
+
+### 2. Implementation sprint
+
+A milestone-based build that turns the blueprint into working controls inside your existing toolchain.
+
+- Security and delivery-platform integrations
+- OPA policies and approval boundaries
+- AI evaluation and red-team gates
+- SBOM, artifact, and provenance workflows
+- Runbooks, enablement, and handoff
+
+**Best for:** teams that have a funded priority and need specialist design plus hands-on implementation.
+
+### 3. Continuous optimization
+
+An advisory retainer that keeps policies, evaluation criteria, and automation effective as threats, models, and platforms change.
+
+- Policy and control updates
+- Alert-quality and remediation tuning
+- Quarterly risk and governance reviews
+- New use-case assessment
+- Engineering and security advisory support
+
+**Best for:** organizations operating governed automation or agentic systems in production.
+
+## How scope is set
+
+Pricing depends on environment complexity, number of delivery platforms and business units, regulatory constraints, integration depth, and the level of implementation ownership. After an initial conversation, we provide a written scope with deliverables, milestones, assumptions, and acceptance criteria.
+
+<div class="not-prose mt-12 rounded-2xl bg-gray-950 p-8 text-white">
+  <h2 class="text-2xl font-bold text-white">Start with one high-consequence workflow</h2>
+  <p class="mt-3 text-gray-300">A focused assessment usually creates more value than a broad transformation program. Bring one agent, pipeline, or supply-chain concern and we’ll help define the right first engagement.</p>
+  <a class="btn-primary mt-6 inline-block" href="https://calendly.com/dgeorgievski">Schedule a strategy call</a>
+</div>
